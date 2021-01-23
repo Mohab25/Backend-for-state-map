@@ -25,10 +25,10 @@ SECRET_KEY = 'fk&l+n663*5d^&zkaae#tlvz8(jci&=mnij_^1t6me2t)yvn$y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-]
+ALLOWED_HOSTS = ['*']
+
 CORS_ALLOWED_ORIGINS=[
-    'http://localhost:3000',
+    'http://localhost:3000','https://mohab25.github.io'
 ]
 
 # Application definition
