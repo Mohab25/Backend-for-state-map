@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS=[
-    'http://localhost:3000','https://mohab25.github.io'
+    #'http://localhost:3000','https://mohab25.github.io'
+    'null'
 ]
 
 # Application definition
